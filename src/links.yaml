@@ -1,0 +1,9 @@
+- name: GitHub
+  icon: github-v
+  url: https://github.com/holazt
+- name: RSS
+  icon: rss-v
+  url: https://www.example.com/rss.xml
+- name: Search
+  icon: search
+  url: https://www.google.com/search?q=site%3Awww.example.com
