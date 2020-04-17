@@ -1,0 +1,4 @@
+[submodule "themes/LoveIt"]
+    path = themes/LoveIt
+    url = https://github.com/holazt/holazt.github.io.git
+    branch = theme
