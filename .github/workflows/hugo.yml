@@ -27,12 +27,12 @@ jobs:
     name: Build & Deploy
     runs-on: ubuntu-latest
     # env:
-    #   HUGO_VERSION: '0.122.0'
+    #   HUGO_VERSION: '0.125.3'
     steps:
       - name: Install Hugo CLI
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.124.1'
+          hugo-version: '0.125.3'
           extended: true
 
       # - name: Install Hugo CLI
