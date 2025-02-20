@@ -26,7 +26,7 @@ enableEmoji = true
     # whether to include Chinese/Japanese/Korean
     hasCJKLanguage = false
     # default amount of posts in each pages
-    paginate = 7
+    pagination.pagerSize = 7
     # copyright description used only for seo schema
     copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
     # Menu config
@@ -139,7 +139,7 @@ enableEmoji = true
         [languages.en.params.home.posts]
           enable = true
           # special amount of posts in each home posts page
-          paginate = 6
+          pagination.pagerSize = 6
       # Social config in home page
       [languages.en.params.social]
         GitHub = "holazt"
@@ -218,7 +218,7 @@ enableEmoji = true
     # 是否包括中日韩文字
     hasCJKLanguage = true
     # 默认每页列表显示的文章数目
-    paginate = 7
+    pagination.pagerSize = 7
     # 版权描述，仅仅用于 SEO
     copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
     # 菜单配置
@@ -330,7 +330,7 @@ enableEmoji = true
         [languages.zh-cn.params.home.posts]
           enable = true
           # 主页每页显示文章数量
-          paginate = 6
+          pagination.pagerSize = 6
       # 主页的社交信息设置
       [languages.zh-cn.params.social]
         GitHub = "holazt"
@@ -407,7 +407,7 @@ enableEmoji = true
     # whether to include Chinese/Japanese/Korean
     hasCJKLanguage = false
     # default amount of posts in each pages
-    paginate = 12
+    pagination.pagerSize = 12
     # copyright description used only for seo schema
     copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
     # Menu config
@@ -516,7 +516,7 @@ enableEmoji = true
         [languages.fr.params.home.posts]
           enable = true
           # special amount of posts in each home posts page
-          paginate = 6
+          pagination.pagerSize = 6
       # Social config in home page
       [languages.fr.params.social]
         GitHub = "holazt"
@@ -638,7 +638,7 @@ enableEmoji = true
   # Section (all posts) page config
   [params.section]
     # special amount of posts in each section page
-    paginate = 20
+    pagination.pagerSize = 20
     # date format (month and day)
     dateFormat = "01-02"
     # amount of RSS pages
@@ -647,7 +647,7 @@ enableEmoji = true
   # List (category or tag) page config
   [params.list]
     # special amount of posts in each list page
-    paginate = 20
+    pagination.pagerSize = 20
     # date format (month and day)
     dateFormat = "01-02"
     # amount of RSS pages
@@ -975,7 +975,7 @@ enableEmoji = true
   # privacy of the Google Analytics (replaced by params.analytics.google)
   [privacy.googleAnalytics]
     # ...
-  [privacy.twitter]
+  [privacy.x]
     enableDNT = true
   [privacy.youtube]
     privacyEnhanced = true
